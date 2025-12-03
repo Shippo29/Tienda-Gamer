@@ -1,0 +1,82 @@
+/* Clean, minimal footer styles */
+
+.app-footer {
+  width: 100%;
+  background: linear-gradient(180deg, #050608 0%, #0b0d10 100%);
+  color: #cfdaf2;
+  padding: 18px 14px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-block {
+  flex: 1 1 260px;
+}
+
+.contact-title {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.contact-list {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.contact-list .label {
+  display: inline-block;
+  min-width: 110px;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 600;
+}
+
+.contact-link {
+  color: #9fd7ff;
+  text-decoration: none;
+}
+.contact-link:hover,
+.contact-link:focus {
+  text-decoration: underline;
+}
+
+.brand-block {
+  flex: 0 0 220px;
+  text-align: right;
+}
+
+.brand-name {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.copyright {
+  font-size: 13px;
+  margin-top: 6px;
+  color: rgba(207, 218, 242, 0.85);
+}
+
+@media (max-width: 700px) {
+  .brand-block {
+    text-align: left;
+    flex-basis: 100%;
+    margin-top: 12px;
+  }
+  .footer-inner {
+    gap: 12px;
+  }
+}
+
+/* End of footer styles */

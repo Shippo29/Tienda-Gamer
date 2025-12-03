@@ -1,0 +1,62 @@
+.pm-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1200;
+}
+.pm-dialog {
+  background: #0b0b0e;
+  color: #e6eef8;
+  border-radius: 10px;
+  max-width: 900px;
+  width: 90%;
+  padding: 14px;
+  position: relative;
+}
+.pm-close {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  background: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+.pm-body {
+  display: flex;
+  gap: 12px;
+}
+.pm-img {
+  width: 40%;
+  height: 260px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+}
+.pm-info h3 {
+  margin: 0;
+}
+.pm-price {
+  color: #00ff99;
+  font-weight: 800;
+}
+.pm-add {
+  margin-top: 12px;
+  background: linear-gradient(90deg, #3dffba, #64efff);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: #051018;
+  cursor: pointer;
+  font-weight: 700;
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+.pm-add:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(61, 255, 186, 0.25);
+}
