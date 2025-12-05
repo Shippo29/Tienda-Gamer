@@ -11,6 +11,7 @@ export default function SearchPanel({ query, setQuery, visible, onClose }) {
   const inputRef = useRef(null);
   const [productos, setProductos] = useState([]);
 
+  
   useEffect(() => {
     let mounted = true;
     fetchProductos()
