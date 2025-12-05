@@ -217,5 +217,3 @@ INSERT INTO productos (nombre, descripcion, precio, stock, categoria, imagen_url
 INSERT INTO productos (nombre, descripcion, precio, stock, categoria, imagen_url) VALUES ('Vitrina Coleccionista', 'Vitrina iluminada para colecciones gaming.', 199990, 20, 'Muebles', '/assets/VitrinaColeccionista.jpg');
 INSERT INTO productos (nombre, descripcion, precio, stock, categoria, imagen_url) VALUES ('Biombo LED Gaming', 'Biombo decorativo con iluminación personalizable.', 129990, 20, 'Muebles', '/assets/BiomboLEDGaming.jpg');
 INSERT INTO productos (nombre, descripcion, precio, stock, categoria, imagen_url) VALUES ('Reposamuñecas Premium', 'Set ergonómico de reposamuñecas de memory foam.', 29990, 20, 'Muebles', '/assets/ReposamuñecasPremium.jpg');
-
--- Fin del script generado
